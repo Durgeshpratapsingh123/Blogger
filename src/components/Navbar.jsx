@@ -16,6 +16,7 @@ const Navbar = () => {
           {open ? "X" : "☰"}
         </div>
         <div>
+          
           {open && (
             <div className="flex flex-col gap-8 absolute top-16 right-0 p-4 rounded-md w-full h-screen justify-center items-center transition-all ease-in-out duration-1000 bg-blue-100">
               <a href="/" className="mx-4 text-2xl">
